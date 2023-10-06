@@ -8,6 +8,8 @@ let colore = prompt('Qual è il tuo colore preferito?');
 const numero = 21;
 
 
+let newPassword = nome + cognome + colore + numero;
 
+divPassword.innerHTML = newPassword;
 
 
